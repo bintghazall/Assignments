@@ -1,0 +1,160 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: cursive;
+  }
+  
+  *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  }
+  body, footer{  
+      background-color: plum;
+  }
+  header{
+    width: 90vw;
+  }
+  .btn{
+      padding: 1rem;
+      color: #fff;
+  }
+  #logo{
+    width: 20vw;
+  }
+  nav{
+  width: 70vw;
+    padding: 0 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  li,a{
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+    padding-left: 1rem;
+  }
+  .flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      
+  }
+  
+  .container{
+      background-color: purple;
+      padding: 1.5rem;
+      margin: 1.5rem;
+  }
+  .profile{
+    
+    width:45%;
+    
+  }
+  .pp,.profile{  
+      
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+  }
+  .pp img{
+      mix-blend-mode: darken;
+      width: 250px;
+      height: 250px;
+      padding-right: 5rem;
+  }
+  .about-me{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  footer{
+    color: purple;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .social i{
+      padding-right: 0;
+      color:purple;
+  }
+  .social a{
+      font-size: 1.5rem;
+      padding-right: 1rem;
+  }
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .projects img{
+    width: 100px;
+    height: 100px;
+    padding: 1rem 0;
+  }
+  .projects a:hover{
+    color: plum;
+    font-size: 1.4rem;
+  }
+  .projects a{
+    padding: 2rem;
+    font-size: 1.1rem;
+    text-align: left;
+    
+  }
+  .project, .service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;  
+    height: 80vh;
+  }
+  
+  .card{
+  /*   border: 1px solid plum; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.2rem;
+    background: plum;
+    box-shadow: 5px 5px #fff;
+    width: 200px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+  /*   flex-wrap: wrap; */
+    
+  }
+  #hobby, #priority, #others{
+    padding: 1rem;
+    font-size:1.2rem;
+    text-align: center;
+  }
+  #projecthead, #servicehead{
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+  #about-me{
+    height: 50vh;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  @media(max-width: 700px){
+  
+    .service{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  
+  /* contact page styling  */
+  
+  

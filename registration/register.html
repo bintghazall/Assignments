@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <nav>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="login.html">Log in</a></li>            
+            </nav>
+        </header>
+        <main>
+            <h1>Register here</h1>
+
+            <!-- form starts -->
+            
+            <form action="success.html">            
+                <div class="inputfield">
+                    <label for="fname">Name:</label>
+                    <input type="text" name="fname" placeholder="First name" class="inputname" id="firstname" required>
+                    <input type="text" name="lname" placeholder="Last name" class="inputname" required>
+                </div>
+                
+                <div class="inputfield">
+                    <label for="phone">Phone number:</label>
+                    <input type="number" name="phone" placeholder="Phone number" class="input" id="" required>
+                </div>
+                <div class="inputfield">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" class="input" placeholder="example@mail.com" required>
+                </div>
+                <div class="inputfield">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" class="input" placeholder="atleast-8-characters-long" required>
+                </div>
+                <div class="inputfield">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">------select------</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    
+                </div>
+                
+                <div class="inputfield">
+                    <label for="dob">Date of birth:</label>
+                    <input type="date" name="dob" class="input"id="" required>
+                </div>
+                <div class="inputfield">
+                    <label for="fcolor">Favorite Color:</label>
+                    <input type="color" name="fcolor"  class="input"id="" required>
+                </div>
+                <button class="btn">REGISTER</button>
+            </form>
+            <!-- form ends -->
+        </main>
+
+        
+
+    </section>
+    
+</body>
+</html>
